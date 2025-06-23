@@ -1,0 +1,19 @@
+a={1,2,3,4,5}
+a.remove(3)
+print(a)
+a={1,2,3,4,5}
+a.discard(3)
+print(a)
+b={1,2,4,5}
+b.discard(3)
+print(b)
+a={1,2,3,4,5}
+x=a.pop()
+print(x)
+print(a)
+a={1,2,3,4,5}
+a.clear()
+print(a)
+a={1,2,3,4,5}
+for i in a:
+    print(i)

@@ -1,0 +1,59 @@
+thisdici={'brand':'ford',
+          'model':'mustang',
+          'year':1964}
+print(thisdici)
+thisdici={'brand':'ford',
+          'model':'mustang',
+          'year':1964}
+print(len(thisdici))
+thisdici={'brand':'ford',
+          'model':'mustang',
+          'year':1964}
+print(type(thisdici))
+thisdici=dict(name='john',age=54,country='india')
+print(thisdici)
+thisdici={'brand':'ford',
+          'model':'mustang',
+          'year':1964}
+print(thisdici['brand'])
+thisdici={'brand':'ford',
+          'model':'mustang',
+          'year':1964}
+x=thisdici.keys()
+print(x)
+thisdici={'brand':'ford',
+          'model':'mustang',
+          'year':1964}
+y=thisdici.get('model')
+print(y)
+thisdici={'brand':'ford',
+          'model':'mustang',
+          'year':1964}
+z=thisdici.values()
+print(z)
+thisdicihisdici={'brand':'ford',
+          'model':'mustang',
+          'year':1964}
+if 'model' in thisdici:
+    print('yes,model is one of the keys in the dictionary')
+thisdici={"name":"john","age":36}
+thisdici["age"]=34
+print(thisdici)
+thisdici={'brand':'ford','model':'mustang','year':1956}
+thisdici.update({'year':1956})
+print(thisdici)
+thisdici={'brand':'ford','model':'mustang','year':1956}
+thisdici['colous']='red'
+print(thisdici)
+thisdicihisdici={'brand':'ford','model':'mustang','year':1956}
+thisdici.update({'colous':'red'})
+print(thisdici)
+thisdicihisdici={'brand':'ford','model':'mustang','year':1956}
+thisdici.pop('model')
+print(thisdici)
+thisdicihisdici={'brand':'ford','model':'mustang','year':1956}
+thisdici.popitem()
+print(thisdici)
+thisdicihisdici={'brand':'ford','model':'mustang','year':1956}
+del thisdici['brand']
+print(thisdici)
